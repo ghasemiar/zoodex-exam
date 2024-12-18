@@ -63,4 +63,5 @@ return [
     'admin'=>'مدیر',
     'guest'=>'مهمان',
     'create user'=>'ایجاد کاربر',
+    'search' => 'جست و جو'
 ];

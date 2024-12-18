@@ -1,5 +1,11 @@
 <x-app-layout>
     <div class="mx-[10%] my-5">
+        <form action="">
+            <x-text-input id="name" class="block mt-1 w-full" type="text" name="search" :value="request('search')" required autofocus />
+            <x-primary-button class="ms-3">
+            {{ __('fa.search') }}
+            </x-primary-button>
+        </form>
         <div>
             <div class="divider my-10">{{__('fa.Products')}}</div>
             <div class="grid xl:grid-cols-4 lg:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-5">
